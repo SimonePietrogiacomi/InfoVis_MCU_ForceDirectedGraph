@@ -10,19 +10,19 @@ Durante la realizzazione del progetto sono stati assegnati i seguenti task, con 
 
 - Visualizzazione confluent: i nodi con un vicinato simile tra loro sono collegati ad un nodo fittizio. Il vicinato in comune è anch’esso collegato a un nodo fittizio differente. Collegando assieme questi due nodi si ottengono degli archi di tipo “confluent”, che permettono di ridurre il numero di archi che attraversano il grafo e che collegano i due “cluster” di nodi.  
 
-[?disegnino: grafo classico e grafo confluent?]: <>
+![Visualizzazione_confluent](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/drawing1.png)
 
 - Inserimento di archi nascosti per distendere il grafo: i nodi di un cluster sono collegati a tutti i nodi del cluster (o dei cluster) a lui collegato con archi di una lunghezza superiore a quella degli archi già presenti e resi nascosti, per non influire sulla leggibilità del grafo. Lo scopo è quello di allargare la visualizzazione per renderla più intuitiva.
 
-[?disegnino: grafino con cuspidi, grafino con archi nascosti visibili e grafino con archi nascosti nascosti?]: <>
+![Inserimento_archi_nascosti](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/drawing2.png)
 
 - Inserimento di nodi àncora: tutti i nodi di tipo movies vengono collegati (tramite archi invisibili) ad un nodo fittizio (anch’esso invisibile) sulla sinistra. Lo stesso accade per tutti i nodi di tipo heroes, sulla destra. Lo scopo di questo task è enfatizzare la bipartizione del grafo.
 
-[?disegnino: grafo con archi nascosti nascosti e grafo con ancore?]: <>
+![Inserimento_nodi_àncora](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/drawing3.png)
 
 - Avvicinamento nodi appartenenti allo stesso cluster: inserimento di archi di lunghezza ridotta tra tutti i nodi all’interno di uno stesso cluster. Lo scopo è avvicinare i nodi con vicinato simile e non sparpagliarli per tutto il grafo.
 
-[?disegnino: grafo con archi cluster distanti, grafo con archi cluster vicini visibili e grafo con archi cluster vicini invisibili?]: <>
+![Avvicinamento_nodi_stesso_cluster](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/drawing4.png)
 
 Allo scopo di ottenere una migliore visualizzazione, è stata effettuata un’ulteriore sperimentazione unendo gli ultimi due task. Lo scopo è quindi quello di enfatizzare la bipartizione del dataset, facendo in modo che gli archi dello stesso cluster rimangano compatti.
 
@@ -31,6 +31,9 @@ Per evitare ambiguità nella comprensione del grafo è stata introdotta, in tutt
 ### Note del progetto
 
 Il dataset fornito rappresenta l’intero MCU, formato da 28 personaggi e 24 film. Al fine di visualizzare un grafo più pulito, si è deciso di utilizzare solamente il dataset relativo alla prima fase, comprensivo di 6 film e 11 eroi.
+
+### Anteprima
+![Anteprima_progetto_Infovis_finale](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/preview.png)
 
 ### Librerie utilizzate
 
