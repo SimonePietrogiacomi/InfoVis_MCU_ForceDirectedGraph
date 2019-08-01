@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> INFOVIS - Progetto finale </title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="js/hidden_to_confluent_graph.js"></script>
+    <script src="js/draw_hidden_graph.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/stili.css">
+</head>
+
+<body>
+    <h1>Progetto finale di Visualizzazione delle Informazioni</h1>
+    <div style="width:1000px; margin:0 auto;">
+        <svg width="1000" height="800" id="hiddenGraph"></svg>
+    </div>
+    <script>
+        d3.json("data/marvel-graph_phase1.json", function (error, graph) {
+            generate_hidden_graph(graph);
+        });
+    </script>
+    <h2>Clicca su un nodo per visualizzarne i nodi direttamente connessi!</h2>
+</body>
+
+</html>
