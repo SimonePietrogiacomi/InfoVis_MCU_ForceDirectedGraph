@@ -1,6 +1,6 @@
 # Visualizzazione delle Informazioni - Progetto finale
 
-Progetto finale di Visualizzazione delle Informazioni, svolto da **Serena Bencivenga** (matricola **??**), **Camilla Bianca** (matricola **461663**) e **Simone Pietrogiacomi** (matricola **461979**), studenti del corso di Laurea Magistrale in Ingegneria Informatica presso l’Università degli studi Roma Tre, a.a. 2018/2019.
+Progetto finale di Visualizzazione delle Informazioni, svolto da **Serena Bencivenga** (matricola **529099**), **Camilla Bianca** (matricola **461663**) e **Simone Pietrogiacomi** (matricola **461979**), studenti del corso di Laurea Magistrale in Ingegneria Informatica presso l’Università degli studi Roma Tre, a.a. 2018/2019.
 
 ## Esplorazione visuale del Marvel Cinematic Universe (MCU)
 
