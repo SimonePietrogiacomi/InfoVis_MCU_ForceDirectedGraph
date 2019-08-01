@@ -17,7 +17,7 @@ Delle varie prove effettuate, la migliore è risultata [Inserimento archi nascos
 
 Durante la realizzazione del progetto sono stati assegnati i seguenti task, con lo scopo principale di realizzare una visualizzazione più interessante e comprensibile di un grafo force directed:
 
-- **Visualizzazione confluent**: i nodi con un vicinato simile tra loro sono collegati ad un nodo fittizio. Il vicinato in comune è anch’esso collegato a un nodo fittizio differente. Collegando assieme questi due nodi si ottengono degli archi di tipo “confluent”, che permettono di ridurre il numero di archi che attraversano il grafo e che collegano i due “cluster” di nodi.
+- **Visualizzazione confluent**: i nodi con un vicinato simile tra loro sono collegati ad un nodo fittizio. Il vicinato in comune è anch’esso collegato a un nodo fittizio differente. Collegando assieme questi due nodi si ottengono degli archi di tipo “confluent”, che permettono di ridurre il numero di archi che attraversano il grafo e che collegano i due “cluster” di nodi. Il vicinato in comune preso in considerazione è almeno del 50%: i nodi vengono uniti dagli archi confluent solo se hanno in comune almeno metà dei vicini.
 
 ![Visualizzazione confluent](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/drawing1.png)
 
