@@ -10,7 +10,7 @@ L’idea su cui si basa il progetto è quella di visualizzare un grafo di eroi e
 
 Delle varie prove effettuate, la migliore è risultata [Inserimento di archi nascosti per distendere il grafo](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/tree/master/project/inserimento_archi_nascosti), che verrà descritta successivamente.
 
-### Anteprima
+#### Anteprima
 ![Anteprima_progetto_Infovis_finale](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/updated_preview.png)
 
 ### Esperimenti effettuati
