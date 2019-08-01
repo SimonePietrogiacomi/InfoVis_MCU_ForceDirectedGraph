@@ -8,19 +8,19 @@ L’idea su cui si basa il progetto è quella di visualizzare un grafo di eroi e
 
 Durante la realizzazione del progetto sono stati assegnati i seguenti task, con lo scopo principale di realizzare una visualizzazione più interessante e comprensibile di un grafo force directed:
 
-- Visualizzazione confluent: i nodi con un vicinato simile tra loro sono collegati ad un nodo fittizio. Il vicinato in comune è anch’esso collegato a un nodo fittizio differente. Collegando assieme questi due nodi si ottengono degli archi di tipo “confluent”, che permettono di ridurre il numero di archi che attraversano il grafo e che collegano i due “cluster” di nodi.  
+- **Visualizzazione confluent**: i nodi con un vicinato simile tra loro sono collegati ad un nodo fittizio. Il vicinato in comune è anch’esso collegato a un nodo fittizio differente. Collegando assieme questi due nodi si ottengono degli archi di tipo “confluent”, che permettono di ridurre il numero di archi che attraversano il grafo e che collegano i due “cluster” di nodi.  
 
 ![Visualizzazione_confluent](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/drawing1.png)
 
-- Inserimento di archi nascosti per distendere il grafo: i nodi di un cluster sono collegati a tutti i nodi del cluster (o dei cluster) a lui collegato con archi di una lunghezza superiore a quella degli archi già presenti e resi nascosti, per non influire sulla leggibilità del grafo. Lo scopo è quello di allargare la visualizzazione per renderla più intuitiva.
+- **Inserimento di archi nascosti per distendere il grafo**: i nodi di un cluster sono collegati a tutti i nodi del cluster (o dei cluster) a lui collegato con archi di una lunghezza superiore a quella degli archi già presenti e resi nascosti, per non influire sulla leggibilità del grafo. Lo scopo è quello di allargare la visualizzazione per renderla più intuitiva.
 
 ![Inserimento_archi_nascosti](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/drawing2.png)
 
-- Inserimento di nodi àncora: tutti i nodi di tipo movies vengono collegati (tramite archi invisibili) ad un nodo fittizio (anch’esso invisibile) sulla sinistra. Lo stesso accade per tutti i nodi di tipo heroes, sulla destra. Lo scopo di questo task è enfatizzare la bipartizione del grafo.
+- **Inserimento di nodi àncora**: tutti i nodi di tipo movies vengono collegati (tramite archi invisibili) ad un nodo fittizio (anch’esso invisibile) sulla sinistra. Lo stesso accade per tutti i nodi di tipo heroes, sulla destra. Lo scopo di questo task è enfatizzare la bipartizione del grafo.
 
 ![Inserimento_nodi_àncora](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/drawing3.png)
 
-- Avvicinamento nodi appartenenti allo stesso cluster: inserimento di archi di lunghezza ridotta tra tutti i nodi all’interno di uno stesso cluster. Lo scopo è avvicinare i nodi con vicinato simile e non sparpagliarli per tutto il grafo.
+- **Avvicinamento nodi appartenenti allo stesso cluster**: inserimento di archi di lunghezza ridotta tra tutti i nodi all’interno di uno stesso cluster. Lo scopo è avvicinare i nodi con vicinato simile e non sparpagliarli per tutto il grafo.
 
 ![Avvicinamento_nodi_stesso_cluster](https://github.com/SimonePietrogiacomi/InfoVis_MCU_ForceDirectedGraph/blob/master/img/drawing4.png)
 
