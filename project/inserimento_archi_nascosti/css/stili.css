@@ -4,8 +4,7 @@ body {
 
 svg {
     border: 2px solid #2E4053;
-    background-image: url("../img/wp5_s.jpg");
-    /*background-color: #B0C4DE;*/
+    background-image: url("../img/background.jpg");
     display: block;
     margin: auto;
 }
